@@ -170,7 +170,7 @@ nav a {
 
 .hero-logo {
     width: 500px;
-    max-width: 80%;
+    max-width: 100%;
     opacity: 0;
     transform: translateY(30px);
     animation: logoIntro 1.2s ease-out forwards 0.5s; /* starts after navbar */
