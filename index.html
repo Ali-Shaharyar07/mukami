@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');</style>
+    <link rel="stylesheet" href="style.css">
+    <title>Home | Mukāmi</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li onclick="hideSidebar()">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+            </li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#hero" class="navName">MUKAMI</a></li>
+            <li class="hideOnMobile"><a href="#work">Work</a></li>
+            <li class="hideOnMobile"><a href="#about">About</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li onclick="showSidebar()" class="menu-button">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </li>
+        </ul>
+    </nav>
+
+<section id="hero" class="hero">
+    <div class="hero-logo-container">
+    <img src="Images/logo_nobg.png" alt="Logo" class="hero-logo logo-default">
+</div>
+</section>
+
+<section id="work" class="work">
+    <div class="work-header" >
+        <h2 style="font-family: 'Cormorant Garamond';">work.</h2>
+        <a href="#more-work" class="see-more" style="font-family: 'Cormorant Garamond';">See More</a>
+    </div>
+
+    <div class="work-grid">
+        <div class="work-item">
+            <img src="Images/1.jpg" alt="Work 1">
+        </div>
+        <div class="work-item">
+            <img src="Images/2.jpg" alt="Work 2">
+        </div>
+        <div class="work-item">
+            <img src="Images/3.jpg" alt="Work 3">
+        </div>
+        <div class="work-item">
+            <img src="Images/4.png" alt="Work 4">
+        </div>
+    </div>
+</section>
+
+
+<section id="about" class="about">
+    <div class="about-header">
+        <h2 style="font-family: 'Cormorant Garamond';">about.</h2>
+    </div>
+    <div class="about-content">
+    <div class="about-image">
+      <img src="Images/about.JPG" alt="About Mukāmi">
+    </div>
+    <div class="about-text">
+      <p>
+        We design for the present, informed by the past, with a vision for an uncertain future. 
+        Our mission is to solve human problems through thoughtful design, elevating spirits 
+        and fostering connections that enrich lives. By embracing the interconnectedness of 
+        people, ideas, and objects, we strive to create spaces that not only inspire but also 
+        contribute positively to our communities. Join us in our journey to weave stories into 
+        spaces that reflect the beauty of human connection.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="contact" id="contact">
+  <div class="contact-content">
+    <h2 class="contact-hero">
+      Curious about what we can create together?<br>
+      Let’s bring something extraordinary to life!
+    </h2>
+
+    <div class="contact-info">
+        <p><strong><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg></strong> <a href="tel:+923334431190">+923334431190</a></p>
+      
+      <p><strong><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg></strong> <a href="mailto:mukamistudio@gmail.com">mukamistudio@gmail.com</a></p>
+        <p><strong><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg></strong> <a href="https://instagram.com/mukami.studio" target="_blank">@mukami.studio</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+    <script>
+    function showSidebar() {
+        document.querySelector('.sidebar').style.display = 'flex';
+    }
+    function hideSidebar() {
+        document.querySelector('.sidebar').style.display = 'none';
+    }
+
+    // Auto-close sidebar when any link is clicked
+    document.addEventListener('DOMContentLoaded', () => {
+        const sidebarLinks = document.querySelectorAll('.sidebar a');
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hideSidebar();
+            });
+        });
+    });
+    
+window.addEventListener('load', () => {
+    const navbar = document.querySelector('.navbar');
+    setTimeout(() => {
+        navbar.style.opacity = '1';
+        navbar.style.transform = 'translateY(0)';
+    }, 200); 
+});
+
+
+window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Intersection Observer for fade-in on scroll
+document.addEventListener("DOMContentLoaded", () => {
+  const observerOptions = {
+    threshold: 0.2 // triggers when 20% of element is visible
+  };
+
+  const fadeInObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate");
+        observer.unobserve(entry.target); // run only once
+      }
+    });
+  }, observerOptions);
+
+  // Target about + work sections
+  document.querySelectorAll(".about-image img, .about-text, .work-item").forEach(el => {
+    fadeInObserver.observe(el);
+  });
+});
+
+</script>
+
+
+</body>
+</html>
